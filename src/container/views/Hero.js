@@ -7,12 +7,17 @@ function Hero() {
   return (
     <div className="bg-white dark:bg-slate-900 h-screen">
       <Header />
-      <div className="flex w-full h-screen justify-center items-center">
-        <div className="w-full flex justify-center flex-col items-center">
-          <Image src="/dummy.png" width={200} height={200} alt="wlee" />
-          <div className="font-bold text-2xl text-[#1E1E1E] dark:text-white mt-4 text-center">
-            Mohon maaf webnya masih dibikin, harap bersabar ini ujian...
+      <div className="w-full md:h-screen flex items-center justify-center">
+        <div className="flex md:flex-row flex-col-reverse justify-between items-center md:w-4/5 md:mt-0 mt-10">
+          <div className="flex flex-col gap-y-2 md:p-0 p-5">
+            <div className="font-extrabold md:text-5xl text-3xl text-[#1E1E1E] dark:text-white md:!leading-snug !leading-normal">
+              Your <span className="bg-[#8ECEF5] dark:bg-[#3174A2] p-2 rounded-sm">Budgeting</span> Assistance
+            </div>
+            <div className="font-medium text-xl text-[#737373] dark:text-white">
+              Make daily money budgeting is easy <br /> Try it with us
+            </div>
           </div>
+          <Image src="/hero.png" width={500} height={500} alt="babi" />
         </div>
       </div>
     </div>

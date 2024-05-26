@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
   return (
-    <div className="flex w-full justify-center py-6">
+    <div className="flex w-full justify-center pt-6">
       <div className="flex md:w-4/5 w-full md:px-0 px-6 justify-between items-center">
         <div className="font-bold text-2xl text-[#1E1E1E] dark:text-white">
           Strategi Algoritma
